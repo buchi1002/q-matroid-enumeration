@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qmatroid"
+version = "0.1.0"
+description = "Enumeration and inspection tools for q-matroids"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+qmatroid = ["data/v1/*/*.json.gz"]

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Long classification runs created by run_classification.ipynb
+results/generated/
+results/reproduced/
+
+# Include bundled precomputed tables.
+!src/qmatroid/data/
+!src/qmatroid/data/**
+
+# archive
+archive/*
