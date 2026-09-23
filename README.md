@@ -54,16 +54,16 @@ Example implementations of the q-matroid enumeration algorithm and tools for vie
 
 Sample code for running the algorithm from the paper and viewing the results.
 
-- [`run_classification_en.ipynb`](notebooks/run_classification_en.ipynb)
+- [`run_classification.ipynb`](notebooks/run_classification.ipynb)
   - Classifies q-matroids in dimensions up to 5 over $\mathbb{F}_2$, or up to 4 over $\mathbb{F}_3$.
   - Saves the canonical representatives for each dimension and rank.
-- [`view_classification_results_en.ipynb`](notebooks/view_classification_results_en.ipynb)
+- [`view_classification_results.ipynb`](notebooks/view_classification_results.ipynb)
   - Displays the numbers of bases and hyperplanes, basis encodings, and automorphism groups of the saved canonical representatives.
-- [`q_fano_candidates_en.ipynb`](notebooks/q_fano_candidates_en.ipynb)
+- [`q_fano_candidates.ipynb`](notebooks/q_fano_candidates.ipynb)
   - Considers rank-3 canonical representatives on $\mathbb{F}_2^5$.
   - Extracts 10 candidates using the conditions on flats satisfied by restrictions of a q-Fano plane.
 
-The bundled `results/` can be used directly to view the results. If the classification is rerun, enumerating rank-2 q-matroids on $\mathbb{F}_2^5$ and $\mathbb{F}_3^4$ takes a long time.
+The bundled `results/` can be used directly to view the results. If the classification is rerun, enumerating rank-2 q-matroids on $\mathbb{F}_2^5$ and $\mathbb{F}_3^4$ may take several hours.
 
 ### [`results/`](results/)
 
